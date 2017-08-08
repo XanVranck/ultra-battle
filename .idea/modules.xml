@@ -3,6 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ultraBattle-general.iml" filepath="$PROJECT_DIR$/.idea/ultraBattle-general.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultraBattle-general_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ultraBattle-general_main.iml" group="ultraBattle-general" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultraBattle-general_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ultraBattle-general_test.iml" group="ultraBattle-general" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultrabattle/ultrabattle.iml" filepath="$PROJECT_DIR$/.idea/modules/ultrabattle/ultrabattle.iml" group="ultrabattle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultrabattle-angular/ultrabattle-angular.iml" filepath="$PROJECT_DIR$/.idea/modules/ultrabattle-angular/ultrabattle-angular.iml" group="ultrabattle-angular" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultrabattle-angular/ultrabattle-angular_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ultrabattle-angular/ultrabattle-angular_main.iml" group="ultrabattle-angular" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultrabattle-angular/ultrabattle-angular_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ultrabattle-angular/ultrabattle-angular_test.iml" group="ultrabattle-angular" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultrabattle/ultrabattle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ultrabattle/ultrabattle_main.iml" group="ultrabattle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultrabattle/ultrabattle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ultrabattle/ultrabattle_test.iml" group="ultrabattle" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,31 @@
+group 'be.ultrabattle'
+version = '0.0.1-SNAPSHOT'
+
+apply plugin: 'java'
+
+println System.getProperty("java.home")
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+allprojects {
+	repositories {
+		mavenCentral()
+	}
+}
+
+subprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
+
+repositories {
+	mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+	project(path:':ultrabattle', configuration:'archives')
+	project(path:':ultrabattle-angular', configuration:'archives')
+}

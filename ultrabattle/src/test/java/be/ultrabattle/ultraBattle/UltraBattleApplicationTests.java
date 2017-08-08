@@ -12,6 +12,4 @@ public class UltraBattleApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
-
 }

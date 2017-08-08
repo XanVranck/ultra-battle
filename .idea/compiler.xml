@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ultrabattle-angular_main" target="1.8" />
+      <module name="ultrabattle-angular_test" target="1.8" />
+      <module name="ultraBattle-general_main" target="1.8" />
+      <module name="ultraBattle-general_test" target="1.8" />
+      <module name="ultrabattle_main" target="1.8" />
+      <module name="ultrabattle_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
