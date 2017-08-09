@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60796d7b-9781-4e5b-81d5-02bd50eb18f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ultrabattle/src/test/java/be/ultrabattle/ultraBattle/UltraBattleApplicationTests.java" afterPath="$PROJECT_DIR$/ultrabattle/src/test/java/be/ultrabattle/ultraBattle/UltraBattleApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/ultrabattle-angular/.gradle/" />
@@ -141,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="40">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -154,18 +155,65 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="420">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
+              <folding>
+                <marker date="1502299231196" expanded="true" signature="107559:107601" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107559:107619" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107559:107632" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107559:107647" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107682:110466" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107695:110451" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107749:108044" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107768:108029" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107831:108009" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107871:107975" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="107892:107953" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108094:108421" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108113:108406" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108208:108386" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108248:108352" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108269:108330" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108472:108737" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108491:108722" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108524:108702" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108564:108668" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108585:108646" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108780:109086" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108799:109071" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108873:109051" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108913:109017" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="108934:108995" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109137:109459" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109156:109444" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109246:109424" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109286:109390" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109307:109368" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109494:109800" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109513:109785" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109587:109765" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109627:109731" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109648:109709" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109852:110117" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109871:110102" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109904:110082" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109944:110048" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="109965:110026" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="110165:110437" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="110184:110422" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="110217:110402" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="110257:110368" ph="..." />
+                <marker date="1502299231196" expanded="true" signature="110278:110346" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UltraBattleApplicationTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UltraBattleApplicationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ultrabattle/src/test/java/be/ultrabattle/ultraBattle/UltraBattleApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="140">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1045,9 +1093,9 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/ultrabattle/build.gradle" />
         <option value="$PROJECT_DIR$/ultrabattle/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/ultrabattle/src/test/java/be/ultrabattle/ultraBattle/UltraBattleApplicationTests.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -1457,7 +1505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502298653552</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updating a xml">
+      <created>1502299146082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1502299146082</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1626,26 +1681,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <marker date="1502299231196" expanded="true" signature="107559:107601" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107559:107619" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107559:107632" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107559:107647" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107682:110466" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107695:110451" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107749:108044" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107768:108029" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107831:108009" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107871:107975" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="107892:107953" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108094:108421" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108113:108406" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108208:108386" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108248:108352" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108269:108330" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108472:108737" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108491:108722" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108524:108702" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108564:108668" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108585:108646" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108780:109086" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108799:109071" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108873:109051" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108913:109017" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="108934:108995" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109137:109459" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109156:109444" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109246:109424" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109286:109390" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109307:109368" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109494:109800" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109513:109785" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109587:109765" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109627:109731" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109648:109709" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109852:110117" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109871:110102" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109904:110082" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109944:110048" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="109965:110026" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="110165:110437" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="110184:110422" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="110217:110402" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="110257:110368" ph="..." />
+            <marker date="1502299231196" expanded="true" signature="110278:110346" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ultrabattle/src/test/java/be/ultrabattle/ultraBattle/UltraBattleApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="140">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
