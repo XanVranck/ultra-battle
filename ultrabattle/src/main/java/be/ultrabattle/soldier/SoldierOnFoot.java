@@ -1,4 +1,4 @@
-package be.ultrabattle.army;
+package be.ultrabattle.soldier;
 
 public class SoldierOnFoot implements Soldier {
     private Weapon weapon;

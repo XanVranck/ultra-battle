@@ -1,12 +1,15 @@
 package be.ultrabattle.army;
 
+import be.ultrabattle.soldier.Soldier;
+import be.ultrabattle.soldier.SoldierOnFoot;
+import be.ultrabattle.soldier.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static be.ultrabattle.army.WeaponType.BAREFIST;
+import static be.ultrabattle.soldier.WeaponType.BAREFIST;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertArrayEquals;
 

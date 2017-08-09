@@ -1,4 +1,4 @@
-package be.ultrabattle.army;
+package be.ultrabattle.soldier;
 
 public enum WeaponType {
     BAREFIST(1);
