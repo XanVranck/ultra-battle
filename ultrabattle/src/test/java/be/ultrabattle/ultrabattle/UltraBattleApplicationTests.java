@@ -1,4 +1,4 @@
-package be.ultrabattle.ultraBattle;
+package be.ultrabattle.ultrabattle;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

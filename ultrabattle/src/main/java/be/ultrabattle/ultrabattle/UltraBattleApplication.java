@@ -1,4 +1,4 @@
-package be.ultrabattle.ultraBattle;
+package be.ultrabattle.ultrabattle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
