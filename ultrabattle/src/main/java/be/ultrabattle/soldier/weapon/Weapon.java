@@ -1,4 +1,4 @@
-package be.ultrabattle.soldier;
+package be.ultrabattle.soldier.weapon;
 
 public class Weapon {
     private WeaponType weaponType;

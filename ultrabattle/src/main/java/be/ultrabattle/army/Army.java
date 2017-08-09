@@ -1,6 +1,6 @@
 package be.ultrabattle.army;
 
-import be.ultrabattle.soldier.Soldier;
+import be.ultrabattle.soldier.soldiers.Soldier;
 
 import java.util.ArrayList;
 import java.util.List;

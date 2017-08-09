@@ -1,4 +1,6 @@
-package be.ultrabattle.soldier;
+package be.ultrabattle.soldier.soldiers;
+
+import be.ultrabattle.soldier.weapon.Weapon;
 
 public class SoldierOnFoot implements Soldier {
     private Weapon weapon;
