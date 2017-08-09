@@ -7,6 +7,10 @@ public class Weapon {
         this.weaponType = weaponType;
     }
 
+    public WeaponType getWeaponType() {
+        return weaponType;
+    }
+
     @Override
     public String toString() {
         return "Weapon{" +
