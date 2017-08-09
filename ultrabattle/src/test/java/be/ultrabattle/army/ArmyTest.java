@@ -3,11 +3,9 @@ package be.ultrabattle.army;
 import be.ultrabattle.soldier.Soldier;
 import be.ultrabattle.soldier.SoldierOnFoot;
 import be.ultrabattle.weapon.Weapon;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import static be.ultrabattle.weapon.WeaponType.BAREFIST;
 import static org.assertj.core.api.Assertions.assertThat;

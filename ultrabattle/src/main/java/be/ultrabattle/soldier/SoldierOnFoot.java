@@ -14,22 +14,24 @@ public class SoldierOnFoot implements Soldier {
         validateAndInitializeWeapon(weapon);
     }
 
-    private void validateAndInitializeWeapon(Weapon weapon) {
-        if(isWeaponSuitableForSOF(weapon)){
+
+
+    @Override
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    @Override
+    public void validateAndInitializeWeapon(Weapon weapon) {
+        if(isWeaponSuitableForSof(weapon)){
             this.weapon = weapon;
         }else{
             throw new WeaponNotSuitableForSoldier(weapon.getWeaponType(), this);
         }
     }
 
-    private boolean isWeaponSuitableForSOF(Weapon weapon) {
-        int[] rank = weapon.getWeaponType().getRank();
-        return Arrays.stream(rank).anyMatch(r -> r == this.rank);
-    }
-
-    @Override
-    public Weapon getWeapon() {
-        return weapon;
+    private boolean isWeaponSuitableForSof(Weapon weapon) {
+        return Arrays.stream(weapon.getWeaponType().getRank()).anyMatch(r -> r == this.rank);
     }
 
     @Override
