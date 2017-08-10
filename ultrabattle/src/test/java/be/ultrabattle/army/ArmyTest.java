@@ -55,5 +55,6 @@ public class ArmyTest {
         Army winner = armyOne.fight(armyTwo);
 
         assertThat(winner).isEqualTo(armyOne);
+        assertThat(winner.getSoldiers()).hasSize(2);
     }
 }

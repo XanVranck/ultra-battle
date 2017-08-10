@@ -29,22 +29,22 @@ public class Army {
         int tempHealthDefender =  this.getSoldiers().get(0).getHealth();
         int tempHealthAttacker = attackingArmy.getSoldiers().get(0).getHealth();
 
-        while (!soldiersDefendingArmy.isEmpty() && !soldiersAttackingArmy.isEmpty()) {
+        while (!this.getSoldiers().isEmpty() && !attackingArmy.getSoldiers().isEmpty()) {
             tempHealthAttacker = defenderAttacks(tempHealthAttacker);
             tempHealthDefender = attackerAttacks(attackingArmy, tempHealthDefender);
 
-            removeDeadSoldier(soldiersDefendingArmy, soldiersAttackingArmy, tempHealthDefender, tempHealthAttacker);
+            removeDeadSoldier(attackingArmy, tempHealthDefender, tempHealthAttacker);
         }
 
-        return soldiersAttackingArmy.isEmpty() ? this : attackingArmy;
+        return !this.getSoldiers().isEmpty() ? this : attackingArmy;
     }
 
-    private void removeDeadSoldier(List<Soldier> soldiersDefendingArmy, List<Soldier> soldiersAttackingArmy, int tempHealthDefender, int tempHealthAttacker) {
+    private void removeDeadSoldier(Army attackingArmy, int tempHealthDefender, int tempHealthAttacker) {
         if(tempHealthAttacker == 0){
-            soldiersAttackingArmy.remove(0);
+            attackingArmy.getSoldiers().remove(0);
         }
         if(tempHealthDefender == 0){
-            soldiersDefendingArmy.remove(0);
+            this.getSoldiers().remove(0);
         }
     }
 
@@ -68,13 +68,6 @@ public class Army {
         healthAttacker -= attackingDamage;
 
         return healthAttacker <= 0 ? 0 : healthAttacker;
-    }
-
-    private Army defineLargestArmy(Army attackingArmy) {
-        int defendingArmy = this.getSoldiers().size();
-        int otherArmy = attackingArmy.getSoldiers().size();
-
-        return defendingArmy >= otherArmy ? this : attackingArmy;
     }
 
     @Override
