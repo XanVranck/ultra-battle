@@ -24,8 +24,6 @@ public class Army {
     }
 
     public Army fight(Army attackingArmy) {
-        List<Soldier> soldiersDefendingArmy = this.getSoldiers();
-        List<Soldier> soldiersAttackingArmy = attackingArmy.getSoldiers();
         int tempHealthDefender =  this.getSoldiers().get(0).getHealth();
         int tempHealthAttacker = attackingArmy.getSoldiers().get(0).getHealth();
 
