@@ -8,9 +8,11 @@ import java.util.Arrays;
 public class SoldierOnFoot implements Soldier {
     private Weapon weapon;
     private int rank;
+    private int healt;
 
     public SoldierOnFoot(Weapon weapon) {
         this.rank = 0;
+        this.healt = 5;
         validateAndInitializeWeapon(weapon);
     }
 
@@ -19,6 +21,16 @@ public class SoldierOnFoot implements Soldier {
     @Override
     public Weapon getWeapon() {
         return weapon;
+    }
+
+    @Override
+    public int getDamage() {
+        return weapon.getWeaponType().getDamage();
+    }
+
+    @Override
+    public int getHealth() {
+        return 5;
     }
 
     @Override

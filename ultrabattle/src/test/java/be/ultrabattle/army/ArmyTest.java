@@ -12,31 +12,48 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertArrayEquals;
 
 public class ArmyTest {
-    private List<Soldier> soldiers = new ArrayList<>();
-    private Army army;
+    private List<Soldier> soldiersArmyOne = new ArrayList<>();
+    private List<Soldier> soldiersArmyTwo = new ArrayList<>();
+    private Army armyOne;
+    private Army armyTwo;
+    private SoldierOnFoot sof;
 
     @Before
     public void setUp() throws Exception {
-        army = new Army();
-        soldiers.add(new SoldierOnFoot(new Weapon(BAREFIST)));
+        armyOne = new Army();
+        armyTwo = new Army();
+
+        sof = new SoldierOnFoot(new Weapon(BAREFIST));
     }
 
     @Test
     public void addSoldierOnFootToArmy_shouldWork() throws Exception {
-        army.addSoldier(new SoldierOnFoot(new Weapon(BAREFIST)));
-        List<Soldier> actual = army.getSoldiers();
+        armyOne.addSoldier(new SoldierOnFoot(new Weapon(BAREFIST)));
+        soldiersArmyOne.add(sof);
 
-        assertThat(actual.get(0)).isEqualToComparingFieldByField(this.soldiers.get(0));
-        assertArrayEquals(actual.toArray(), soldiers.toArray());
+        List<Soldier> actual = armyOne.getSoldiers();
+
+        assertArrayEquals(actual.toArray(), soldiersArmyOne.toArray());
     }
 
     @Test
     public void removeSoldierOnFoot_shouldWork() throws Exception {
         Soldier soldierOnFoot = new SoldierOnFoot(new Weapon(BAREFIST));
-        army.addSoldier(soldierOnFoot);
-        army.removeSoldier(soldierOnFoot);
-        List<Soldier> actual = army.getSoldiers();
+        armyOne.addSoldier(soldierOnFoot);
+        armyOne.removeSoldier(soldierOnFoot);
+        List<Soldier> actual = armyOne.getSoldiers();
 
         assertThat(actual).isEmpty();
+    }
+
+    @Test
+    public void fight_ArmyOneShouldWin() throws Exception {
+        armyOne.addSoldier(sof);
+        armyOne.addSoldier(sof);
+        armyOne.addSoldier(sof);
+        armyTwo.addSoldier(sof);
+        Army winner = armyOne.fight(armyTwo);
+
+        assertThat(winner).isEqualTo(armyOne);
     }
 }
